@@ -1,0 +1,22 @@
+body {
+    background-image: url("../img/plate.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+};
+
+#content {
+    padding-top: 50%;
+    opacity: 1;
+};
+
+.list-group-item, #eat, #delete {
+    display: inline-block;
+}
+
+#wing-add {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+

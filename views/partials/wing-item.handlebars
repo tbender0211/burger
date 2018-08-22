@@ -1,0 +1,9 @@
+<div class="wing">
+  {{this.wing_name}}
+  {{#if eaten}}
+    <button type="button" data-id="{{this.id}}" class="btn btn-outline-danger btn-sm" id="delete">Delete</button>
+  {{else}}
+    <button type="button" data-id="{{this.id}}" class="btn btn-outline-danger btn-sm" id="eat">EAT</button>
+  {{/if}}
+  <br><br>
+</div>
