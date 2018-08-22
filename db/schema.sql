@@ -1,10 +1,12 @@
-CREATE burgers_db;
+DROP DATABASE IF EXISTS wings_db;
 
-USE burgers_db;
+CREATE DATABASE wings_db;
 
-CREATE TABLE burgers (
+USE wings_db;
+
+CREATE TABLE wings (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    burger_name VARCHAR(50),
-    devoured BOOLEAN
+    wing_name VARCHAR(50),
+    eaten BOOLEAN DEFAULT false
 );
 

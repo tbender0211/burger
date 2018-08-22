@@ -1,0 +1,28 @@
+<h1>Wings!</h1>
+
+<h2>Uneaten Wings</h2>
+<ul>
+    {{#each wings}}
+        {{#unless eaten}}
+        {{/unless}}
+    {{/each}}
+</ul>
+
+<h2>Eaten Wings</h2>
+<ul>
+    {{#each wings}}
+        {{#if eaten}}
+        {{/if}}
+    {{/each}}
+</ul>
+
+<h2>Add a Wing</h2>
+<form class="create-form">
+
+  <div class="form-group">
+    <label for="ca">Wing Sauce:</label>
+    <input type="text" id="wing-sauce" name="name">
+  </div>
+
+  <button type="submit">Add Wing</button>
+</form>
