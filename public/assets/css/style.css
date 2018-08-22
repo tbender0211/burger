@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    font-family: 'Caveat', cursive;
 };
 
 #content {
@@ -17,6 +18,14 @@ body {
 #wing-add {
     margin-bottom: 50px;
     margin-top: 50px;
+}
+
+#wing-header {
+    width: 100%;
+    height: 200px;
+    top: 0px;
+    background-image: url("../img/wings.jpg");
+    margin-left: 0;
 }
 
 
